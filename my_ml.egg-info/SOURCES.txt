@@ -1,0 +1,10 @@
+README.md
+setup.py
+my_ml/__init__.py
+my_ml/dense_network.py
+my_ml/k_means.py
+my_ml.egg-info/PKG-INFO
+my_ml.egg-info/SOURCES.txt
+my_ml.egg-info/dependency_links.txt
+my_ml.egg-info/requires.txt
+my_ml.egg-info/top_level.txt
