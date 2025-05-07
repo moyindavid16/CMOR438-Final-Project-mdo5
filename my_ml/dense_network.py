@@ -21,7 +21,7 @@ def MSE(W, B, X, y):
         _, A = forward_pass(W, B, xi)
         L = len(A) - 1  # get output layer index
         total_error += 0.5 * (A[L] - yi) ** 2
-    return total_error / len(X)
+    return float(total_error / len(X))
 
 
 def initialize_weights(layers):
